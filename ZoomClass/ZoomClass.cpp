@@ -20,6 +20,13 @@ int main() {
 	}
 	if (a < b) {
 		std::cout << "Nothing happens here\n";
+
+	}
+	if (a >= z) {// if ( a > z || a == z) 
+		std::cout << "A is either greater than Z or equal to it\n";
+	}
+	if (a != b) {
+		std::cout << "A and B are not equal\n";
 	}
 
 	/* 
